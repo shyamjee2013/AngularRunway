@@ -23,7 +23,23 @@
      //return res.send({ error: true, message: 'hello' })
  });
 
-    
+// Login api
+  app.get('/logincheck', function (request, response) {
+      debugger;
+    var loginUserName = request.query.user;
+    var loginUserPassword = request.query.password;
+
+    if(loginUserName == 'amt2015' && loginUserPassword == 'angular6')
+    {
+        return response.send({ error: true, message: 'Login sucess..' })
+    }
+    else
+    {
+        console.log(loginUserName);
+        return response.send({ error: true, message: 'Login failed...wrong UserName and Password.' })
+    }
+ });
+      
 
  app.listen(8080, function () {
     console.log('Node app is running on port 8080');
