@@ -25,24 +25,21 @@
  app.get('/topic', function (request, response) {
 
     var data =[{
-        "technology":
-                {
-                    "angular":
-                        [
-                            { "id": "101", "topic": "Log Out Session" },
-                            { "id": "102", "topic": "Token Authentication" },
-                            { "id": "103", "topic": "Data Insertion in Mongo" },
-                            { "id": "104", "topic": "Stored Procedure calling in Mongo" },
-                            { "id": "105", "topic": "Dropdown binding" },
-                            { "id": "106", "topic": "Reset Password" },
-                            { "id": "107", "topic": "Forms and Template Driven Form" },
-                            { "id": "108", "topic": "Angular Life Cycle" },
-                            { "id": "109", "topic": "Parent Child Relation-ship" },
-                            { "id": "110", "topic": "@Input/ Output" },
-                            { "id": "111", "topic": "Angular Life Cycle" },
-                            { "id": "112", "topic": "Hosting Angular Application and Express JS Service and Mongo Database" }
-                        ]
-                }
+        "angular":
+        [
+            { "id": "101", "topic": "Log Out Session" },
+            { "id": "102", "topic": "Token Authentication" },
+            { "id": "103", "topic": "Data Insertion in Mongo" },
+            { "id": "104", "topic": "Stored Procedure calling in Mongo" },
+            { "id": "105", "topic": "Dropdown binding" },
+            { "id": "106", "topic": "Reset Password" },
+            { "id": "107", "topic": "Forms and Template Driven Form" },
+            { "id": "108", "topic": "Angular Life Cycle" },
+            { "id": "109", "topic": "Parent Child Relation-ship" },
+            { "id": "110", "topic": "@Input/ Output" },
+            { "id": "111", "topic": "Angular Life Cycle" },
+            { "id": "112", "topic": "Hosting Angular Application and Express JS Service and Mongo Database" }
+        ]
     }]
     return response.send(data);
 });
