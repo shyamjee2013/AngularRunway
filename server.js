@@ -31,7 +31,23 @@
 
     if(loginUserName == 'amt2015' && loginUserPassword == 'angular6')
     {
-        return response.send({ error: true, message: 'Login sucess..' })
+
+        var data =[{
+            "technology":
+                    {
+                        "angular":
+                            [
+                                { "id": "1001", "topic": "Component" },
+                                { "id": "1002", "topic": "Directives" },
+                                { "id": "1003", "topic": "2 way Binding" },
+                                { "id": "1004", "topic": "NgModel" },
+                                { "id": "1005", "topic": "Directives" },
+                                { "id": "1006", "topic": "Angular Life Cycle" },
+                                { "id": "1007", "topic": "Pipes" }                                
+                            ]
+                    }
+        }]
+        return response.send({ error: true, message: 'Login sucess..',data })
     }
     else
     {
