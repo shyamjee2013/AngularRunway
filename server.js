@@ -33,12 +33,14 @@
             { "id": "104", "topic": "Stored Procedure calling in Mongo" },
             { "id": "105", "topic": "Dropdown binding" },
             { "id": "106", "topic": "Reset Password" },
-            { "id": "107", "topic": "Forms and Template Driven Form" },
-            { "id": "108", "topic": "Angular Life Cycle" },
-            { "id": "109", "topic": "Parent Child Relation-ship" },
-            { "id": "110", "topic": "@Input/ Output" },
-            { "id": "111", "topic": "Angular Life Cycle" },
-            { "id": "112", "topic": "Hosting Angular Application and Express JS Service and Mongo Database" }
+            { "id": "107", "topic": "await" },
+            { "id": "108", "topic": "pagination in angular" },
+            { "id": "109", "topic": "Forms and Template Driven Form" },
+            { "id": "110", "topic": "Angular Life Cycle" },
+            { "id": "111", "topic": "Parent Child Relation-ship" },
+            { "id": "112", "topic": "@Input/ Output" },
+            { "id": "113", "topic": "Angular Life Cycle" },
+            { "id": "114", "topic": "Hosting Angular Application and Express JS Service and Mongo Database" }
         ]
     }]
     return response.send(data);
